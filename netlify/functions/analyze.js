@@ -8,7 +8,7 @@ exports.handler = async (event) => {
 
   try {
     const { imageBase64, prompt } = JSON.parse(event.body);
-    const API_KEY = process.env.ZHIPU_API_KEY;
+    const API_KEY = process.env.GOOGLE_API_KEY;
 
     // 构造请求给智谱 AI (使用支持图片的模型)
     const response = await axios.post('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
