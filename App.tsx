@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Header } from './components/Header';
 import { UploadSection } from './components/UploadSection';
 import { AnalysisResultView } from './components/AnalysisResult';
-import { analyzeMathProblem } from './services/geminiService';
+// Change import from geminiService to aiService since that is the file present
+import { analyzeMathProblem } from './services/aiService';
 import { AppState, AnalysisResult, UploadedImage } from './types';
 import { Loader2, Sparkles, ArrowRight } from 'lucide-react';
 
