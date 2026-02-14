@@ -1,0 +1,5 @@
+{
+  "name": "AI 数学助教",
+  "description": "智能作业助手，分析数学题目，检查作业对错，提供个性化学习指导。",
+  "requestFramePermissions": []
+}
